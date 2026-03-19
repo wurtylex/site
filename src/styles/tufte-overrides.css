@@ -25,10 +25,12 @@ code {
 }
 
 .widget-island {
+  position: relative;
+  left: 27.5%;
+  transform: translateX(-50%);
+  max-width: 55%;
   text-align: center;
   background: transparent;
-  max-width: 55%;
-  margin: 0 auto;
 }
 
 .katex-display {
