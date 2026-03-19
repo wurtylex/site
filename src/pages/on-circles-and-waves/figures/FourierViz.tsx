@@ -171,6 +171,7 @@ export default function FourierViz() {
         marginTop: '0.875rem',
         display: 'flex',
         alignItems: 'center',
+        justifyContent: 'flex-start',
         gap: '1.5rem',
         flexWrap: 'wrap',
         fontSize: '13px',
