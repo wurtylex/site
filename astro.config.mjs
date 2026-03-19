@@ -4,7 +4,7 @@ import mdx from '@astrojs/mdx';
 import react from '@astrojs/react';
 
 export default defineConfig({
-  site: 'https://wurtylex.github.io'
+  site: 'https://wurtylex.github.io',
   integrations: [
     mdx(),
     react(),
