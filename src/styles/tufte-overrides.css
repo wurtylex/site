@@ -25,6 +25,7 @@ code {
 }
 
 .widget-island {
+  text-align: center;
   background: transparent;
   max-width: 55%;
 }

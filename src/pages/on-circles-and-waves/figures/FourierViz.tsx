@@ -45,10 +45,6 @@ export default function FourierViz() {
     function draw() {
       ctx.clearRect(0, 0, W, H);
 
-      // Background
-      ctx.fillStyle = colors.bg;
-      ctx.fillRect(0, 0, W, H);
-
       // Wave area grid line (center)
       ctx.strokeStyle = colors.grid;
       ctx.lineWidth = 1;
