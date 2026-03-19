@@ -4,11 +4,8 @@ body {
   padding: 1rem 1rem;
 }
 
-article > p.subtitle {
-  margin-bottom: 1rem;
-}
-
 article > h1 {
+  margin-bottom: 1rem;
   margin-top: 0;
 }
 
