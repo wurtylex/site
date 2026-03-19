@@ -32,10 +32,15 @@ code {
   background: #fdfcfa;
 }
 
-.katex-display,
-.katex-display > .katex,
-.katex-display > .katex > .katex-html {
+
+.katex-display {
   display: block;
+  width: 100%;
   text-align: center;
-  padding: 1rem 0;
+  margin: 2rem 0;
+}
+
+.katex-display > .katex {
+  display: inline-block;
+  text-align: left;
 }
