@@ -25,10 +25,6 @@ code {
 }
 
 .widget-island {
-  margin: 2.5rem 0;
-  border: 1px solid #e2ddd6;
-  border-radius: 6px;
-  padding: 1.5rem;
   background: transparent;
   max-width: 55%;
 }
