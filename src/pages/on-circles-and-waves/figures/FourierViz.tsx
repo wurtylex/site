@@ -140,7 +140,7 @@ export default function FourierViz() {
   }, [terms]);
 
   return (
-    <div className="widget-island" style={{ margin: '0 auto' }}>
+    <div className="widget-island" style={{ width: '100%', margin: '2rem 0' }}>
       <canvas
         ref={canvasRef}
         style={{ width: '100%', maxWidth: W + 'px', display: 'block', borderRadius: '4px' }}
