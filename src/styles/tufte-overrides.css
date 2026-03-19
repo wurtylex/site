@@ -27,3 +27,9 @@ code {
   padding: 1.5rem;
   background: #fdfcfa;
 }
+
+.katex-display {
+  text-align: center;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
