@@ -28,8 +28,10 @@ code {
   background: #fdfcfa;
 }
 
-.katex-display {
+.katex-display,
+.katex-display > .katex,
+.katex-display > .katex > .katex-html {
+  display: block;
   text-align: center;
-  overflow-x: auto;
   padding: 1rem 0;
 }
