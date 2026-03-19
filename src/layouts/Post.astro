@@ -12,7 +12,7 @@ const { frontmatter } = Astro.props;
     <p class="subtitle">
       {frontmatter.description}
       &nbsp; &middot; &nbsp;
-      <time>{frontmatter.date.toISOString().slice(0, 10)}</time>
+      <time>{new Date(frontmatter.date).toISOString().slice(0, 10)}</time>
     </p>
 
     <section>
