@@ -29,7 +29,8 @@ code {
   border: 1px solid #e2ddd6;
   border-radius: 6px;
   padding: 1.5rem;
-  background: #fdfcfa;
+  background: transparent;
+  max-width: 55%;
 }
 
 
